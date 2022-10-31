@@ -8,18 +8,18 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx1b6a4e10b5b0dba1',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '437eb967dd6ae3edd5edb10595825897',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '陕西',
+  CITY: '榆林',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小王同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -39,10 +39,10 @@ const USER_CONFIG = {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         },
       ],
-      // 我们在一起已经有xxxx天了的配置
+      // 我们认识已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-10-30' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
